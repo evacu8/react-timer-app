@@ -4,7 +4,7 @@ const Display = props => {
 
   return (
     <div className={styles.display}>
-
+      <div>{props.time}</div>
     </div>
   );
 };
