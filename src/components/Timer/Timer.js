@@ -36,10 +36,14 @@ const Timer = () => {
 
   return (
     <div className={styles.timer}>
-      <Display time = {time}/>
-      <Button onClick={start}>Start</Button>
-      <Button onClick = {stop}>Stop</Button>
-      <Button onClick = {reset}>Reset</Button> 
+      <div className={styles.row}>
+        <Display time = {time}/>
+      </div>
+      <div className={styles.row}>
+        <Button onClick={start}>Start</Button>
+        <Button onClick = {stop}>Stop</Button>
+        <Button onClick = {reset}>Reset</Button> 
+      </div>
     </div>
   );
 };
