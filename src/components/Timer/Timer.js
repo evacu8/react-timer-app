@@ -36,7 +36,7 @@ const Timer = () => {
 
   return (
     <div className={styles.timer}>
-      <div className={styles.row}>
+      <div className={styles.row + styles.display_}>
         <Display time = {time}/>
       </div>
       <div className={styles.row}>

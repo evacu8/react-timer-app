@@ -2,9 +2,9 @@
 
 .timer {
 display: flex;
-justify-content: center;
 flex-wrap: wrap;
 flex-direction: column;
+width: 400px;
 }
 
 .row {
@@ -19,4 +19,8 @@ Button {
   display: flex;
   justify-content: center;
   font-size: $base-size * 2;
+}
+
+.display_ {
+  justify-content: left;
 }
